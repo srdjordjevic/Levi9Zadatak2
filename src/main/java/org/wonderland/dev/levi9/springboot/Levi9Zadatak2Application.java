@@ -2,7 +2,6 @@ package org.wonderland.dev.levi9.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -10,14 +9,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @EnableAutoConfiguration
 public class Levi9Zadatak2Application {
-	
-	@RequestMapping("/")
+
+    @RequestMapping("/")
     @ResponseBody
     String home() {
         return "Hello World!";
     }
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         SpringApplication.run(Levi9Zadatak2Application.class, args);
     }
 }
