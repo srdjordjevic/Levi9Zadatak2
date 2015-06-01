@@ -1,4 +1,4 @@
-package org.wonderland.dev.levi9.json.pdnj.model.output.mock;
+package org.wonderland.dev.levi9.springboot.engine.output.mock;
 
 public class PlacedBetAwayMock extends PlacedBetMock {
 	

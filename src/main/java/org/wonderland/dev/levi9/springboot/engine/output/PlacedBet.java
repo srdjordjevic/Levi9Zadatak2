@@ -1,6 +1,6 @@
-package org.wonderland.dev.levi9.json.pdnj.model.output;
+package org.wonderland.dev.levi9.springboot.engine.output;
 
-import org.wonderland.dev.levi9.json.pdnj.utils.BetType;
+import org.wonderland.dev.levi9.springboot.engine.utils.BetType;
 
 public class PlacedBet {
 	

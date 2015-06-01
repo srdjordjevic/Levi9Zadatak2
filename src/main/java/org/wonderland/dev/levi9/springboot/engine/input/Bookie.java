@@ -1,4 +1,4 @@
-package org.wonderland.dev.levi9.json.pdnj.model.input;
+package org.wonderland.dev.levi9.springboot.engine.input;
 
 import java.util.List;
 

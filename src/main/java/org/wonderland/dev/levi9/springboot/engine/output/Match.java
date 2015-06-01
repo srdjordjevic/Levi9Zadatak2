@@ -1,12 +1,12 @@
-package org.wonderland.dev.levi9.json.pdnj.model.output;
+package org.wonderland.dev.levi9.springboot.engine.output;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-import org.wonderland.dev.levi9.json.pdnj.model.input.BetOffer;
-import org.wonderland.dev.levi9.json.pdnj.model.output.mock.MatchMock;
-import org.wonderland.dev.levi9.json.pdnj.model.output.mock.PlacedBetMock;
+import org.wonderland.dev.levi9.springboot.engine.input.BetOffer;
+import org.wonderland.dev.levi9.springboot.engine.output.mock.MatchMock;
+import org.wonderland.dev.levi9.springboot.engine.output.mock.PlacedBetMock;
 
 public class Match {
 	

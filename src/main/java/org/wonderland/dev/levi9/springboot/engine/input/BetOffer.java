@@ -1,6 +1,6 @@
-package org.wonderland.dev.levi9.json.pdnj.model.input;
+package org.wonderland.dev.levi9.springboot.engine.input;
 
-import org.wonderland.dev.levi9.json.pdnj.model.output.mock.PlacedBetMock;
+import org.wonderland.dev.levi9.springboot.engine.output.mock.PlacedBetMock;
 
 public class BetOffer {
 	

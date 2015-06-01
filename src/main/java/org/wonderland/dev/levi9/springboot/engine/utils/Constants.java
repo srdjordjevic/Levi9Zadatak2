@@ -1,4 +1,4 @@
-package org.wonderland.dev.levi9.json.pdnj.utils;
+package org.wonderland.dev.levi9.springboot.engine.utils;
 
 public class Constants {
 	public static final String DEFAULT_OUTPUT_FILE_NAME = "out.json";

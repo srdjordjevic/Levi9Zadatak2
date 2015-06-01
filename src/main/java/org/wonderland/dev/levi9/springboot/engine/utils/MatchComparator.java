@@ -1,8 +1,8 @@
-package org.wonderland.dev.levi9.json.pdnj.utils;
+package org.wonderland.dev.levi9.springboot.engine.utils;
 
 import java.util.Comparator;
 
-import org.wonderland.dev.levi9.json.pdnj.model.output.Match;
+import org.wonderland.dev.levi9.springboot.engine.output.Match;
 
 public class MatchComparator implements Comparator<Match> {
 
