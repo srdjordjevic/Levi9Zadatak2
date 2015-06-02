@@ -1,5 +1,8 @@
 package org.wonderland.dev.levi9.springboot;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Controller;
@@ -11,6 +14,8 @@ import org.springframework.web.client.RestTemplate;
 @EnableAutoConfiguration
 public class Levi9Zadatak2Application {
 
+	List<String> servicesList = new ArrayList<String>();
+	
     @RequestMapping("/")
     @ResponseBody
     String home() {
