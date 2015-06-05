@@ -41,6 +41,14 @@ public class Betting {
 				+ "]";
 	}
 	
-	
+	public Betting reconnectReferences() {
+		for(Bookie bookie : getBookies()) {
+			for(BetOffer offer : bookie.getBetOffers()) {
+				offer.setBookie(bookie);
+			}
+			bookie.setBetting(this);
+		}
+		return this;
+	}
 	
 }

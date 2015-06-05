@@ -1,38 +1,43 @@
 package org.wonderland.dev.levi9.springboot.engine.output;
 
+import org.wonderland.dev.levi9.springboot.engine.input.BetOffer;
 import org.wonderland.dev.levi9.springboot.engine.utils.BetType;
 
 public class PlacedBet {
-	
-	private String bookieID;
+
+	private BetOffer offer;
 	private double bet;
 	private BetType betType;
-	
-	public PlacedBet(String bookieID, double bet, BetType betType) {
+
+	public PlacedBet(BetOffer offer, double bet, BetType betType) {
 		super();
-		this.bookieID = bookieID;
+		this.offer = offer;
 		this.bet = bet;
 		this.betType = betType;
 	}
-	
-	public String getBookieID() {
-		return bookieID;
+
+	public BetOffer getOffer() {
+		return offer;
 	}
-	public void setBookieID(String bookieID) {
-		this.bookieID = bookieID;
+
+	public void setOffer(BetOffer offer) {
+		this.offer = offer;
 	}
+
 	public double getBet() {
 		return bet;
 	}
+
 	public void setBet(double bet) {
 		this.bet = bet;
 	}
+
 	public BetType getBetType() {
 		return betType;
 	}
+
 	public void setBetType(BetType betType) {
 		this.betType = betType;
 	}
 
-	
 }

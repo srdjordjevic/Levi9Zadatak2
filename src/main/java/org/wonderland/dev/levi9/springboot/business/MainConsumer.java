@@ -22,7 +22,7 @@ public class MainConsumer implements Consumer {
 		List<Bookie> bookies = new ArrayList<Bookie>();
 		// TODO Auto-generated method stub
 		for(String url : req.getServicesUrls()) {
-			Bookie bookie = fetchBookieFromUrl(url);
+			Bookie bookie = fetchBookieFromUrl(url.trim());
 			bookie.setBetting(betting);
 			bookies.add(bookie);
 		}
